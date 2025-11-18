@@ -1,6 +1,6 @@
 # Port 443 Monitor
 
-A simple PHP CLI tool to monitor number of active connections on port 443.
+A simple PHP CLI tool to monitor number of active network connections.
 
 ## Usage
 
