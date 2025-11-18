@@ -6,7 +6,7 @@ A simple PHP CLI tool to monitor number of active connections on port 443.
 
 ```bash
 composer create-project farad-tech/port-443-monitor
-php src/monitor.php --interval=2
+php monitor.php --interval=2
 ```
 or clone directly:
 
