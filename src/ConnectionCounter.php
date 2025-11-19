@@ -1,6 +1,6 @@
 <?php
 
-namespace Src;
+namespace FaradTech\Port443Monitor;
 
 class ConnectionCounter
 {

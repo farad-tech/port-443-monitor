@@ -6,20 +6,20 @@ A simple PHP CLI tool to monitor number of active network connections.
 
 ```bash
 composer create-project farad-tech/port-443-monitor
-php monitor.php --interval=2
+sudo php monitor.php --interval=2
 ```
 or clone directly:
 
 ```bash
 git clone https://github.com/farad-tech/port-443-monitor.git
-php monitor.php
+sudo php monitor.php
 ```
 
-also you can get just value of current connection counts by ``Src\ConnectionCounter`` class.
+also you can get just value of current connection counts by ``FaradTech\Port443Monitor\ConnectionCounter`` class.
 ```php
 <?php
 $port = 443; // default value is 443 but you may set any port that you want
-echo (new Src\ConnectionCounter($port))->count(); // 73
+echo (new FaradTech\Port443Monitor\ConnectionCounter($port))->count(); // 73
 ```
 
 ### Screenshot

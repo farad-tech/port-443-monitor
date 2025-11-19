@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use Src\ConnectionCounter;
+use FaradTech\Port443Monitor\ConnectionCounter;
 
 class ConnectionTest extends TestCase
 {

@@ -2,7 +2,7 @@
 require 'vendor/autoload.php';
 
 $interval = 1;
-use Src\ConnectionCounter;
+use FaradTech\Port443Monitor\ConnectionCounter;
 
 $options = getopt("", ["interval::"]);
 
